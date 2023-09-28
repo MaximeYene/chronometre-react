@@ -1,0 +1,45 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 40%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 27%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.timer {
+    font-size: 100px;
+    background-color: cadetblue;
+    color: #fff;
+}
+
+
+.clickButton{
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    border: 1px solid;
+    text-align: center;
+    padding: 1px 14px;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.1s;
+}
+button:hover{
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 750px) {
+    .timer{
+        font-size: 20px;
+    }
+    button{
+        font-size: 12px;
+    }
+}
